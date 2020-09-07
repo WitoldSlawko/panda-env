@@ -1,0 +1,263 @@
+2020-08-21T16:08:19.398Z [jfevt] [INFO ] [7de92fe9986570c7] [bootstrap.go:46               ] [main                ] - Effective configuration:
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /opt/jfrog/artifactory/app/run/artifactory.pid
+artifactory.user (Environment Variable: JF_ARTIFACTORY_USER): artifactory
+configVersion (File): 1
+event.artifactoryClient.request.timeout (Default Value): 5s
+event.baseUrlCache.interval (Default Value): 5m
+event.domainCache.interval (Default Value): 5m
+event.grpcPort (Default Value): 8062
+event.logging.application.caller (Default Value): false
+event.logging.application.console (Default Value): true
+event.logging.application.filePath (Default Value): event-service.log
+event.logging.application.format (Default Value): jftext
+event.logging.application.level (Default Value): info
+event.logging.application.rotation.compress (Default Value): true
+event.logging.application.rotation.maxAgeDays (Default Value): 365
+event.logging.application.rotation.maxFiles (Default Value): 10
+event.logging.application.rotation.maxSizeMb (Default Value): 25
+event.logging.metrics.console (Default Value): false
+event.logging.metrics.filePath (Default Value): event-metrics.log
+event.logging.metrics.rotation.compress (Default Value): true
+event.logging.metrics.rotation.maxAgeDays (Default Value): 365
+event.logging.metrics.rotation.maxFiles (Default Value): 10
+event.logging.metrics.rotation.maxSizeMb (Default Value): 25
+event.logging.request.console (Default Value): false
+event.logging.request.filePath (Default Value): event-request.log
+event.logging.request.rotation.compress (Default Value): true
+event.logging.request.rotation.maxAgeDays (Default Value): 365
+event.logging.request.rotation.maxFiles (Default Value): 10
+event.logging.request.rotation.maxSizeMb (Default Value): 25
+event.metrics.enabled (Default Value): false
+event.metrics.exclude (Default Value): []
+event.metrics.interval (Default Value): 10s
+event.port (Default Value): 8061
+event.profiling.enabled (Default Value): false
+event.proxyCache.interval (Default Value): 5m
+event.rateLimit.burstSize (Default Value): 10000
+event.rateLimit.frequency (Default Value): 1000
+event.rateLimit.maxConcurrentHandlers (Default Value): 50000
+event.supportBundle.aggregationTimeout (Default Value): 1h
+event.tokenCache.timeout (Default Value): 1m
+event.webhooks.maxIdleConnections (Default Value): 100
+event.webhooks.maxIdleConnectionsPerHost (Default Value): 100
+event.webhooks.retryCount (Default Value): 5
+event.webhooks.retryWait (Default Value): 10s
+event.webhooks.timeout (Default Value): 30s
+event.webhooks.tlsInsecure (Default Value): false
+metadata.accessclient.url (Environment Variable: JF_METADATA_ACCESSCLIENT_URL): http://localhost:8081/access
+product.data.internal (Environment Variable: JF_PRODUCT_DATA_INTERNAL): /var/opt/jfrog/artifactory
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfevt
+shared.database (File): <nil>
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node (File): <nil>
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): 902c8c335ff4
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 172.17.0.2
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): 902c8c335ff4
+shared.security (File): <nil>
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [startup]
+2020-08-21T16:08:24.405Z [jfevt] [INFO ] [7de92fe9986570c7] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [startup]
+2020-08-21T16:08:29.424Z [jfevt] [INFO ] [7de92fe9986570c7] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [startup]
+2020-08-21T16:08:34.426Z [jfevt] [INFO ] [7de92fe9986570c7] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout [startup]
+2020-08-21T16:08:39.429Z [jfevt] [INFO ] [7de92fe9986570c7] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 20 seconds with 2m0s timeout [startup]
+2020-08-21T16:08:44.431Z [jfevt] [INFO ] [7de92fe9986570c7] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 25 seconds with 2m0s timeout [startup]
+2020-08-21T16:08:49.441Z [jfevt] [INFO ] [7de92fe9986570c7] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:08:54.451Z [jfevt] [INFO ] [7de92fe9986570c7] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:08:57.502Z [jfevt] [INFO ] [7de92fe9986570c7] [bootstrap.go:95               ] [main                ] - JFrog Event Service ID: jfevt@01eg8wevhs41pa0r842ye409qt [startup]
+2020-08-21T16:08:57.502Z [jfevt] [INFO ] [7de92fe9986570c7] [bootstrap.go:96               ] [main                ] - JFrog Event Node ID   : 902c8c335ff4 [startup]
+2020-08-21T16:08:57.502Z [jfevt] [INFO ] [7de92fe9986570c7] [bootstrap.go:97               ] [main                ] - JFrog Event Node IP   : 172.17.0.2 [startup]
+2020-08-21T16:08:57.663Z [jfevt] [INFO ] [7de92fe9986570c7] [access_join.go:56             ] [main                ] - Cluster join: Successfully joined the cluster [application]
+2020-08-21T16:08:57.663Z [jfevt] [INFO ] [7de92fe9986570c7] [access_join.go:56             ] [main                ] - Executing Router register at: localhost:8046 [application]
+2020-08-21T16:08:57.668Z [jfevt] [INFO ] [7de92fe9986570c7] [application.go:118            ] [main                ] - JFrog Event (jfevt) service initialization completed in 38.274 seconds. HTTP server listening on 127.0.0.1:8061. GRPC server listening on 127.0.0.1:8062 [application]
+2020-08-21T16:08:57.781Z [jfevt] [WARN ] [7de92fe9986570c7] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 404) [baseurl_cache]
+2020-08-21T16:08:57.801Z [jfevt] [WARN ] [7de92fe9986570c7] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 404) [proxy_cache]
+2020-08-21T16:08:57.810Z [jfevt] [WARN ] [7de92fe9986570c7] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 404) [domain_cache]
+2020-08-21T16:09:07.891Z [jfevt] [WARN ] [7de92fe9986570c7] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 503) [baseurl_cache]
+2020-08-21T16:09:07.897Z [jfevt] [WARN ] [7de92fe9986570c7] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 503) [proxy_cache]
+2020-08-21T16:09:07.971Z [jfevt] [WARN ] [7de92fe9986570c7] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 503) [domain_cache]
+2020-08-21T16:09:11.269Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Internal) [access_client]
+2020-08-21T16:09:11.276Z [jfevt] [WARN ] [                ] [access_join.go:75             ] [main                ] - Refreshing platform config stream - target server is unavailable [access_client]
+2020-08-21T16:09:11.289Z [jfevt] [WARN ] [                ] [access_join.go:75             ] [main                ] - Refreshing platform config stream - target server is unavailable [access_client]
+2020-08-21T16:09:11.314Z [jfevt] [WARN ] [                ] [access_join.go:75             ] [main                ] - Refreshing platform config stream - target server is unavailable [access_client]
+2020-08-21T16:09:11.355Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:11.436Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:11.601Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:11.946Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:12.594Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:13.894Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Unimplemented) [access_client]
+2020-08-21T16:09:30.504Z [jfevt] [INFO ] [459b1f9df5d90267] [bootstrap.go:46               ] [main                ] - Effective configuration:
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /opt/jfrog/artifactory/app/run/artifactory.pid
+artifactory.user (Environment Variable: JF_ARTIFACTORY_USER): artifactory
+configVersion (File): 1
+event.artifactoryClient.request.timeout (Default Value): 5s
+event.baseUrlCache.interval (Default Value): 5m
+event.domainCache.interval (Default Value): 5m
+event.grpcPort (Default Value): 8062
+event.logging.application.caller (Default Value): false
+event.logging.application.console (Default Value): true
+event.logging.application.filePath (Default Value): event-service.log
+event.logging.application.format (Default Value): jftext
+event.logging.application.level (Default Value): info
+event.logging.application.rotation.compress (Default Value): true
+event.logging.application.rotation.maxAgeDays (Default Value): 365
+event.logging.application.rotation.maxFiles (Default Value): 10
+event.logging.application.rotation.maxSizeMb (Default Value): 25
+event.logging.metrics.console (Default Value): false
+event.logging.metrics.filePath (Default Value): event-metrics.log
+event.logging.metrics.rotation.compress (Default Value): true
+event.logging.metrics.rotation.maxAgeDays (Default Value): 365
+event.logging.metrics.rotation.maxFiles (Default Value): 10
+event.logging.metrics.rotation.maxSizeMb (Default Value): 25
+event.logging.request.console (Default Value): false
+event.logging.request.filePath (Default Value): event-request.log
+event.logging.request.rotation.compress (Default Value): true
+event.logging.request.rotation.maxAgeDays (Default Value): 365
+event.logging.request.rotation.maxFiles (Default Value): 10
+event.logging.request.rotation.maxSizeMb (Default Value): 25
+event.metrics.enabled (Default Value): false
+event.metrics.exclude (Default Value): []
+event.metrics.interval (Default Value): 10s
+event.port (Default Value): 8061
+event.profiling.enabled (Default Value): false
+event.proxyCache.interval (Default Value): 5m
+event.rateLimit.burstSize (Default Value): 10000
+event.rateLimit.frequency (Default Value): 1000
+event.rateLimit.maxConcurrentHandlers (Default Value): 50000
+event.supportBundle.aggregationTimeout (Default Value): 1h
+event.tokenCache.timeout (Default Value): 1m
+event.webhooks.maxIdleConnections (Default Value): 100
+event.webhooks.maxIdleConnectionsPerHost (Default Value): 100
+event.webhooks.retryCount (Default Value): 5
+event.webhooks.retryWait (Default Value): 10s
+event.webhooks.timeout (Default Value): 30s
+event.webhooks.tlsInsecure (Default Value): false
+metadata.accessclient.url (Environment Variable: JF_METADATA_ACCESSCLIENT_URL): http://localhost:8081/access
+product.data.internal (Environment Variable: JF_PRODUCT_DATA_INTERNAL): /var/opt/jfrog/artifactory
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfevt
+shared.database (File): <nil>
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node (File): <nil>
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): a434dade0936
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 172.17.0.2
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): a434dade0936
+shared.security (File): <nil>
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [startup]
+2020-08-21T16:09:34.516Z [jfevt] [INFO ] [459b1f9df5d90267] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:09:39.520Z [jfevt] [INFO ] [459b1f9df5d90267] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:09:44.525Z [jfevt] [INFO ] [459b1f9df5d90267] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:09:49.532Z [jfevt] [INFO ] [459b1f9df5d90267] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:09:54.538Z [jfevt] [INFO ] [459b1f9df5d90267] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-21T16:09:59.694Z [jfevt] [INFO ] [459b1f9df5d90267] [bootstrap.go:95               ] [main                ] - JFrog Event Service ID: jfevt@01eg8wevhs41pa0r842ye409qt [startup]
+2020-08-21T16:09:59.695Z [jfevt] [INFO ] [459b1f9df5d90267] [bootstrap.go:96               ] [main                ] - JFrog Event Node ID   : a434dade0936 [startup]
+2020-08-21T16:09:59.695Z [jfevt] [INFO ] [459b1f9df5d90267] [bootstrap.go:97               ] [main                ] - JFrog Event Node IP   : 172.17.0.2 [startup]
+2020-08-21T16:09:59.901Z [jfevt] [INFO ] [459b1f9df5d90267] [access_join.go:56             ] [main                ] - Cluster join: Successfully joined the cluster [application]
+2020-08-21T16:09:59.901Z [jfevt] [INFO ] [459b1f9df5d90267] [access_join.go:56             ] [main                ] - Executing Router register at: localhost:8046 [application]
+2020-08-21T16:09:59.917Z [jfevt] [INFO ] [459b1f9df5d90267] [application.go:118            ] [main                ] - JFrog Event (jfevt) service initialization completed in 29.417 seconds. HTTP server listening on 127.0.0.1:8061. GRPC server listening on 127.0.0.1:8062 [application]
+2020-08-21T16:10:00.236Z [jfevt] [WARN ] [459b1f9df5d90267] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 404) [baseurl_cache]
+2020-08-21T16:10:00.261Z [jfevt] [WARN ] [459b1f9df5d90267] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 404) [proxy_cache]
+2020-08-21T16:10:00.281Z [jfevt] [WARN ] [459b1f9df5d90267] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 404) [domain_cache]
+2020-08-21T16:10:10.253Z [jfevt] [WARN ] [459b1f9df5d90267] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 503) [baseurl_cache]
+2020-08-21T16:10:10.286Z [jfevt] [WARN ] [459b1f9df5d90267] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 503) [proxy_cache]
+2020-08-21T16:10:10.288Z [jfevt] [WARN ] [459b1f9df5d90267] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 503) [domain_cache]
+2020-08-21T17:25:40.475Z [jfevt] [WARN ] [459b1f9df5d90267] [access_join.go:75             ] [main                ] - Cannot find factory for config update, ignoring. Key: projects.default.configuration [access_client]
+2020-08-21T17:50:00.047Z [jfevt] [ERROR] [                ] [access_join.go:79             ] [main                ] - Refreshing platform config stream - got an error (status: Internal) [access_client]
+2020-08-29T08:38:30.204Z [jfevt] [INFO ] [563c70e3b72949a ] [bootstrap.go:46               ] [main                ] - Effective configuration:
+artifactory.pid (Environment Variable: JF_ARTIFACTORY_PID): /opt/jfrog/artifactory/app/run/artifactory.pid
+artifactory.user (Environment Variable: JF_ARTIFACTORY_USER): artifactory
+configVersion (File): 1
+event.artifactoryClient.request.timeout (Default Value): 5s
+event.baseUrlCache.interval (Default Value): 5m
+event.domainCache.interval (Default Value): 5m
+event.grpcPort (Default Value): 8062
+event.logging.application.caller (Default Value): false
+event.logging.application.console (Default Value): true
+event.logging.application.filePath (Default Value): event-service.log
+event.logging.application.format (Default Value): jftext
+event.logging.application.level (Default Value): info
+event.logging.application.rotation.compress (Default Value): true
+event.logging.application.rotation.maxAgeDays (Default Value): 365
+event.logging.application.rotation.maxFiles (Default Value): 10
+event.logging.application.rotation.maxSizeMb (Default Value): 25
+event.logging.metrics.console (Default Value): false
+event.logging.metrics.filePath (Default Value): event-metrics.log
+event.logging.metrics.rotation.compress (Default Value): true
+event.logging.metrics.rotation.maxAgeDays (Default Value): 365
+event.logging.metrics.rotation.maxFiles (Default Value): 10
+event.logging.metrics.rotation.maxSizeMb (Default Value): 25
+event.logging.request.console (Default Value): false
+event.logging.request.filePath (Default Value): event-request.log
+event.logging.request.rotation.compress (Default Value): true
+event.logging.request.rotation.maxAgeDays (Default Value): 365
+event.logging.request.rotation.maxFiles (Default Value): 10
+event.logging.request.rotation.maxSizeMb (Default Value): 25
+event.metrics.enabled (Default Value): false
+event.metrics.exclude (Default Value): []
+event.metrics.interval (Default Value): 10s
+event.port (Default Value): 8061
+event.profiling.enabled (Default Value): false
+event.proxyCache.interval (Default Value): 5m
+event.rateLimit.burstSize (Default Value): 10000
+event.rateLimit.frequency (Default Value): 1000
+event.rateLimit.maxConcurrentHandlers (Default Value): 50000
+event.supportBundle.aggregationTimeout (Default Value): 1h
+event.tokenCache.timeout (Default Value): 1m
+event.webhooks.maxIdleConnections (Default Value): 100
+event.webhooks.maxIdleConnectionsPerHost (Default Value): 100
+event.webhooks.retryCount (Default Value): 5
+event.webhooks.retryWait (Default Value): 10s
+event.webhooks.timeout (Default Value): 30s
+event.webhooks.tlsInsecure (Default Value): false
+metadata.accessclient.url (Environment Variable: JF_METADATA_ACCESSCLIENT_URL): http://localhost:8081/access
+product.data.internal (Environment Variable: JF_PRODUCT_DATA_INTERNAL): /var/opt/jfrog/artifactory
+product.home (Environment Variable: JF_PRODUCT_HOME): /opt/jfrog/artifactory
+router.entrypoints.internalPort (Default Value): 8046
+router.topology.local.requiredservicetypes (Environment Variable: JF_ROUTER_TOPOLOGY_LOCAL_REQUIREDSERVICETYPES): jfrt,jfac,jfmd,jffe,jfevt
+shared.database (File): <nil>
+shared.newrelic.appName (Default Value): 
+shared.newrelic.distributedTracerEnabled (Default Value): true
+shared.newrelic.enableDebugLog (Default Value): false
+shared.newrelic.enabled (Default Value): false
+shared.newrelic.licenseKey (Default Value): *****
+shared.node (File): <nil>
+shared.node.id (Environment Variable: JF_SHARED_NODE_ID): 2d268949e212
+shared.node.ip (Environment Variable: JF_SHARED_NODE_IP): 172.17.0.2
+shared.node.name (Environment Variable: JF_SHARED_NODE_NAME): 2d268949e212
+shared.security (File): <nil>
+shared.security.bootstrapKeysReadTimeoutSecs (Default Value): 120
+shared.security.joinKeyFile (Default Value): etc/security/join.key
+shared.security.masterKeyFile (Default Value): etc/security/master.key
+system.yaml (Environment Variable: JF_SYSTEM_YAML): /opt/jfrog/artifactory/var/etc/system.yaml [startup]
+2020-08-29T08:38:34.328Z [jfevt] [INFO ] [563c70e3b72949a ] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-29T08:38:39.333Z [jfevt] [INFO ] [563c70e3b72949a ] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-29T08:38:44.344Z [jfevt] [INFO ] [563c70e3b72949a ] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-29T08:38:49.364Z [jfevt] [INFO ] [563c70e3b72949a ] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-29T08:38:54.380Z [jfevt] [INFO ] [563c70e3b72949a ] [access_thin_client.go:105     ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access/api/v1/system/ping': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [startup]
+2020-08-29T08:38:59.448Z [jfevt] [INFO ] [563c70e3b72949a ] [bootstrap.go:95               ] [main                ] - JFrog Event Service ID: jfevt@01eg8wevhs41pa0r842ye409qt [startup]
+2020-08-29T08:38:59.448Z [jfevt] [INFO ] [563c70e3b72949a ] [bootstrap.go:96               ] [main                ] - JFrog Event Node ID   : 2d268949e212 [startup]
+2020-08-29T08:38:59.448Z [jfevt] [INFO ] [563c70e3b72949a ] [bootstrap.go:97               ] [main                ] - JFrog Event Node IP   : 172.17.0.2 [startup]
+2020-08-29T08:38:59.529Z [jfevt] [INFO ] [563c70e3b72949a ] [access_join.go:56             ] [main                ] - Cluster join: Successfully joined the cluster [application]
+2020-08-29T08:38:59.530Z [jfevt] [INFO ] [563c70e3b72949a ] [access_join.go:56             ] [main                ] - Executing Router register at: localhost:8046 [application]
+2020-08-29T08:38:59.557Z [jfevt] [INFO ] [563c70e3b72949a ] [application.go:118            ] [main                ] - JFrog Event (jfevt) service initialization completed in 29.362 seconds. HTTP server listening on 127.0.0.1:8061. GRPC server listening on 127.0.0.1:8062 [application]
+2020-08-29T08:38:59.641Z [jfevt] [WARN ] [563c70e3b72949a ] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 404) [baseurl_cache]
+2020-08-29T08:38:59.667Z [jfevt] [WARN ] [563c70e3b72949a ] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 404) [domain_cache]
+2020-08-29T08:38:59.673Z [jfevt] [WARN ] [563c70e3b72949a ] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 404) [proxy_cache]
+2020-08-29T08:39:09.655Z [jfevt] [WARN ] [563c70e3b72949a ] [base_url_cache.go:67          ] [main                ] - Base URL cache is not updated because of error: failed to fetch base URL from Artifactory (returned 503) [baseurl_cache]
+2020-08-29T08:39:09.670Z [jfevt] [WARN ] [563c70e3b72949a ] [domain_cache.go:119           ] [main                ] - Domain cache is not updated because of error: failed to fetch domains from Artifactory (returned 503) [domain_cache]
+2020-08-29T08:39:09.675Z [jfevt] [WARN ] [563c70e3b72949a ] [proxy_synchronizer.go:21      ] [main                ] - Proxy cache is not updated because of error: failure to get the list of proxies from Artifactory (returned 503) [proxy_cache]
