@@ -520,3 +520,351 @@ Logging.Request.Rotation.IntervalSeconds             | 0
 2020-09-07T18:04:01.697Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
 2020-09-07T18:04:01.702Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
 2020-09-07T18:04:01.705Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:06.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:06.683Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:06.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:06.692Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:06.693Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:11.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:11.684Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:11.687Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:11.691Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:11.691Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:16.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:16.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:16.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:16.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:16.689Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:21.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:21.705Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:21.709Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:21.712Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:21.712Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:26.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:26.693Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:26.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:26.700Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:26.700Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:31.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:31.683Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:31.687Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:31.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:31.690Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:36.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:36.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:36.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:36.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:36.689Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:41.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:41.687Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:41.691Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:41.695Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:41.695Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:46.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:46.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:46.700Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:46.704Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:46.704Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:51.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:51.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:51.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:51.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:51.690Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:56.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:56.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:56.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:56.700Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:04:56.701Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:01.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:01.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:01.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:01.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:01.689Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:06.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:06.693Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:06.697Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:06.700Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:06.701Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:11.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:11.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:11.705Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:11.723Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:11.723Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:16.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:16.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:16.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:16.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:16.690Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:21.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:21.698Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:21.703Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:21.709Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:21.709Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:26.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:26.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:26.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:26.709Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:26.710Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:31.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:31.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:31.703Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:31.715Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:31.715Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:36.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:36.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:36.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:36.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:36.694Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:41.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:41.684Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:41.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:41.691Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:41.691Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:46.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:46.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:46.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:46.702Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:46.703Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:51.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:51.687Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:51.693Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:51.697Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:51.698Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:56.681Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:56.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:56.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:56.702Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:05:56.702Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:01.692Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:01.699Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:01.703Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:01.714Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:01.716Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:06.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:06.700Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:06.715Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:06.741Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:06.751Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:11.681Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:11.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:11.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:11.698Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:11.698Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:16.678Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:16.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:16.704Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:16.713Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:16.714Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:21.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:21.691Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:21.699Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:21.706Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:21.709Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:26.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:26.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:26.691Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:26.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:26.697Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:31.683Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:31.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:31.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:31.704Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:31.707Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:36.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:36.683Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:36.687Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:36.693Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:36.694Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:41.679Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:41.684Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:41.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:41.698Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:41.699Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:46.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:46.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:46.698Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:46.703Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:46.704Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:51.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:51.702Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:51.713Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:51.718Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:51.718Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:56.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:56.696Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:56.704Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:56.717Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:06:56.726Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:01.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:01.685Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:01.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:01.692Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:01.692Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:06.683Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:06.688Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:06.693Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:06.701Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:06.702Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:11.682Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:11.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:11.690Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:11.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:11.694Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:16.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:16.686Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:16.689Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:16.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:16.694Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:21.680Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:21.694Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:21.699Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:21.706Z [jfmd ] [INFO ] [6dc7e9832003e103] [server_bearer.go:123          ] [main                ] - RETRY: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:07:21.707Z [jfmd ] [ERROR] [6dc7e9832003e103] [server_bearer.go:114          ] [main                ] - Heartbeat failed, no more retries. err: fail to update heartbeat for server in the database [ServerInit]
+2020-09-07T18:09:46.105Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [database_bearer.go:92         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-09-07T18:09:46.496Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [migrator.go:61                ] [main                ] - Applying 39 migrations files [database]
+2020-09-07T18:09:46.497Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [application.go:55             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.7.3 Revision: 20703900 PID: 3800 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-09-07T18:09:46.499Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01eg8wf4q1pq54a0pj2mz045rq [ServerInit]
+2020-09-07T18:09:50.813Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:09:55.819Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:00.833Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:05.847Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:10.858Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:15.866Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:20.881Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:25.893Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:30.916Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-07T18:10:35.923Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2020-09-07T18:10:38.094Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-09-07T18:10:38.094Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [accessclient.go:51            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-09-07T18:10:38.102Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [router_middlewares.go:57      ] [main                ] - 
+Metadata Info
+========================
+
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.Compress                    | true
+Keys.ReadAttempts                                    | 120
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Application.Rotation.MaxFiles                | 10
+Shared.NewRelic.LicenseKey                           | 
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Profiling.Enabled                                    | false
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Request.Rotation.IntervalSeconds             | 0
+Database.Type                                        | 1
+Keys.ReadIntervalDuration                            | 1s
+Port                                                 | 8086
+Logging.Request.FilePath                             | metadata-request.log
+AccessClient.Url                                     | http://localhost:8081/access
+
+2020-09-07T18:10:38.102Z [jfmd ] [INFO ] [1218726dfd1ac4ac] [router_middlewares.go:58      ] [main                ] - Metadata (jfmd) service initialization completed in 51.605 seconds. Listening on port: 8086 [router]
+2020-09-11T17:08:44.368Z [jfmd ] [INFO ] [244e2aab367a17da] [database_bearer.go:92         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-09-11T17:08:44.577Z [jfmd ] [INFO ] [244e2aab367a17da] [migrator.go:61                ] [main                ] - Applying 39 migrations files [database]
+2020-09-11T17:08:44.605Z [jfmd ] [INFO ] [244e2aab367a17da] [application.go:55             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.7.3 Revision: 20703900 PID: 3773 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-09-11T17:08:44.632Z [jfmd ] [INFO ] [244e2aab367a17da] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01eg8wf4q1pq54a0pj2mz045rq [ServerInit]
+2020-09-11T17:08:44.672Z [jfmd ] [PANIC] [244e2aab367a17da] [server_bearer.go:98           ] [main                ] - Failed to create/update server info, err: UNIQUE constraint failed: md_servers.node_unique_id
+failed to update server
+jfrog.com/metadata/services.updateServer
+	/src/jfrog.com/metadata/services/server_bearer.go:199
+jfrog.com/metadata/services.(*serverBearer).initServer
+	/src/jfrog.com/metadata/services/server_bearer.go:96
+jfrog.com/metadata/services.NewServerBearer
+	/src/jfrog.com/metadata/services/server_bearer.go:58
+jfrog.com/metadata/application.initializeServerManager
+	/src/jfrog.com/metadata/application/wire_gen.go:53
+jfrog.com/metadata/application.CreateApp
+	/src/jfrog.com/metadata/application/application.go:58
+main.main
+	/src/jfrog.com/metadata/metadata.go:41
+runtime.main
+	/src/runtime/proc.go:203
+runtime.goexit
+	/src/runtime/asm_amd64.s:1373
+jfrog.com/metadata/services.(*serverBearer).initServer
+	/src/jfrog.com/metadata/services/server_bearer.go:98
+jfrog.com/metadata/services.NewServerBearer
+	/src/jfrog.com/metadata/services/server_bearer.go:58
+jfrog.com/metadata/application.initializeServerManager
+	/src/jfrog.com/metadata/application/wire_gen.go:53
+jfrog.com/metadata/application.CreateApp
+	/src/jfrog.com/metadata/application/application.go:58
+main.main
+	/src/jfrog.com/metadata/metadata.go:41
+runtime.main
+	/src/runtime/proc.go:203
+runtime.goexit
+	/src/runtime/asm_amd64.s:1373
+goroutine 1 [running]:
+runtime/debug.Stack(0x10, 0x10, 0xc0001a9910)
+	/src/runtime/debug/stack.go:24 +0x9d
+jfrog.com/jfrog-go-commons/pkg/log.(*standardLogger).Panicfc(0xc00060f880, 0x7f31112fd028, 0xc0000b0e00, 0x1404283, 0x2d, 0xc0001a9910, 0x1, 0x1)
+	/src/jfrog.com/go-commons/pkg/log/standard_logger.go:42 +0x6a
+jfrog.com/metadata/services.(*serverBearer).initServer(0xc000530000, 0x7f31112fd028, 0xc0000b0e00, 0x168d9a0, 0xc0004dbd80, 0xc00094380a)
+	/src/jfrog.com/metadata/services/server_bearer.go:98 +0x56c
+jfrog.com/metadata/services.NewServerBearer(0x16a2a20, 0xc0000b0e00, 0x168d9a0, 0xc0004dbd80, 0x16809e0, 0xc0003ec580, 0xa, 0x12a05f200, 0x32, 0xc000943a00)
+	/src/jfrog.com/metadata/services/server_bearer.go:58 +0x2a9
+jfrog.com/metadata/application.initializeServerManager(0x16a2a20, 0xc0000b0e00, 0xc0000b0e00, 0x13e2383)
+	/src/jfrog.com/metadata/application/wire_gen.go:53 +0x14e
+jfrog.com/metadata/application.CreateApp(0x16a2a20, 0xc0000b0e00, 0x168dba0, 0xc0004e0870)
+	/src/jfrog.com/metadata/application/application.go:58 +0x28d
+main.main()
+	/src/jfrog.com/metadata/metadata.go:41 +0x70e
+ [ServerInit]
+2020-09-11T17:14:42.955Z [jfmd ] [INFO ] [41396c1a51c70760] [database_bearer.go:92         ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-09-11T17:14:43.108Z [jfmd ] [INFO ] [41396c1a51c70760] [migrator.go:61                ] [main                ] - Applying 39 migrations files [database]
+2020-09-11T17:14:43.120Z [jfmd ] [INFO ] [41396c1a51c70760] [application.go:55             ] [main                ] - Metadata (jfmd) service initialization started. Version: 2.7.3 Revision: 20703900 PID: 3801 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-09-11T17:14:43.161Z [jfmd ] [INFO ] [41396c1a51c70760] [server_bearer.go:156          ] [main                ] - Got service_id from datastore: jfmd@01eg8wf4q1pq54a0pj2mz045rq [ServerInit]
+2020-09-11T17:14:47.314Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:14:52.326Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:14:57.338Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:02.369Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 20: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:07.380Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 25: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:12.394Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 30: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:17.411Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 35: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:22.425Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 40: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:27.430Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 45: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-09-11T17:15:32.470Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Retry 50: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2020-09-11T17:15:33.629Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-09-11T17:15:33.630Z [jfmd ] [INFO ] [41396c1a51c70760] [accessclient.go:51            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-09-11T17:15:33.652Z [jfmd ] [INFO ] [41396c1a51c70760] [router_middlewares.go:57      ] [main                ] - 
+Metadata Info
+========================
+
+Port                                                 | 8086
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Request.Rotation.MaxFiles                    | 10
+Database.Type                                        | 1
+Keys.ReadAttempts                                    | 120
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Profiling.Enabled                                    | false
+Shared.NewRelic.LicenseKey                           | 
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxSizeMb               | 25
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Shared.NewRelic.DistributedTracerEnabled             | true
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxAgeDays                  | 365
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.IntervalSeconds         | 0
+AccessClient.Url                                     | http://localhost:8081/access
+Keys.ReadIntervalDuration                            | 1s
+
+2020-09-11T17:15:33.652Z [jfmd ] [INFO ] [41396c1a51c70760] [router_middlewares.go:58      ] [main                ] - Metadata (jfmd) service initialization completed in 50.531 seconds. Listening on port: 8086 [router]
+2020-09-11T18:21:22.785Z [jfmd ] [INFO ] [eeccfd3421f94ec ] [database_bearer.go:307        ] [main                ] - Slow statement detected (5.47962795s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
+2020-09-11T18:22:46.036Z [jfmd ] [INFO ] [eeccfd3421f94ec ] [database_bearer.go:307        ] [main                ] - Slow statement detected (13.838687496s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
+2020-09-11T18:23:44.500Z [jfmd ] [INFO ] [eeccfd3421f94ec ] [database_bearer.go:307        ] [main                ] - Slow statement detected (11.966565539s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
+2020-09-11T18:25:02.705Z [jfmd ] [INFO ] [eeccfd3421f94ec ] [database_bearer.go:307        ] [main                ] - Slow statement detected (18.387935053s) - UPDATE md_servers SET last_heartbeat = ? WHERE id = ? [database]
