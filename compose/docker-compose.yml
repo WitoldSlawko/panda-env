@@ -23,7 +23,7 @@ services:
             - /var/run/docker.sock:/var/run/docker.sock
         networks:
             - docker_network
-        command: java -jar agent.jar -jnlpUrl http://192.168.44.44:8880/computer/Slave/slave-agent.jnlp -secret b49012dfaf76dcfd23d161045e494746c953117d04b43391871bc25415738185 -workDir "/home/"
+        command: java -jar agent.jar -jnlpUrl http://192.168.44.44:8080/computer/Slave/slave-agent.jnlp -secret 2c50b3db4cab0fe2b4ddfbf7d542e783f45101e7a41ca9ec7026acf9c398d205 -workDir "/home/"
 
     artifactory:
         image: docker.bintray.io/jfrog/artifactory-oss:latest
