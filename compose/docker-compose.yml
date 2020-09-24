@@ -19,6 +19,9 @@ services:
         container_name: ubuntu
         depends_on:
             - jenkins
+        environment:
+            - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+            - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
         networks:
